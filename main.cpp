@@ -30,7 +30,14 @@ int main() {
 
   if (user_answer=="Tr"|| user_answer=="tr")
   {
-    Trapeze();
+    int Trapeze();
+    cout << "lai uzzināt Tr laukumu uzraksti augstumu un pamati" << endl ;
+    int h,a;
+    cin >> h ;
+    cin >> a ;
+    int STr=a*h;
+    cout << STr ;
+    return STr;
   }
 
   if (user_answer=="R"|| user_answer=="r")
